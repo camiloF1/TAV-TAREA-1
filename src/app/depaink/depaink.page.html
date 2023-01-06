@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>depaink</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button [routerLink]="['/home']"><ion-icon name="log-out-outline"></ion-icon></ion-button>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://cdn.discordapp.com/attachments/835335745761574932/1060328336376725574/image.png" />
+    <ion-card-header>
+      <ion-card-title>Bienvenido a Depa ink</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Aquí podrás ver nuestros departamentos y mas información sobre nosotros
+    </ion-card-content>
+  </ion-card>
+  <ion-button expand="block" [routerLink]="['/nuestrosdepartamentos']"> Nuestros departamentos </ion-button>
+  <ion-button expand="block" [routerLink]="['/about']"> Más sobre nosotros </ion-button>
+
+</ion-content>

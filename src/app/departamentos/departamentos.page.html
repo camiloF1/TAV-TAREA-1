@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>departamentos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Nombre departamento: {{ nombre }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Precio: {{ precio }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Metros cuadrados: {{ metrosCuadrados }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Numero de dormitorios: {{ numeroDormitorios }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Numero de baños: {{ banios }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Comuna: {{ comuna }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Codigo de propiedad: {{ codigoDePropiedad }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Fecha de entrega: {{ fechaDeEntrega }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Estado del proyecto: {{ estadoDelProyecto }}</ion-label>
+    </ion-item>
+    <ion-item>
+      Imagen :
+      <img src="{{ imagen }}" alt="">
+    </ion-item>
+  </ion-list>
+  <ion-button [routerLink]="['/nuestrosdepartamentos']">Volver <ion-icon name="arrow-back-outline"></ion-icon></ion-button>
+  <ion-button [routerLink]="['/nuestrosdepartamentos']">Comprar <ion-icon name="card-outline"></ion-icon></ion-button>
+
+
+
+</ion-content>

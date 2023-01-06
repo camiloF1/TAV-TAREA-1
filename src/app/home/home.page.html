@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inicio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://www.hogares.cl/wp-content/uploads/2018/06/2-Macul-52-1.jpg" />
+    <ion-card-header>
+      <ion-card-title>Depa ink</ion-card-title>
+      <ion-card-subtitle>El departamento de tus sueños</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Aquí en Depa ink descubriras el departamento de tus sueños a un precio justo
+    </ion-card-content>
+  </ion-card>
+
+
+    Para saber mas registrate <br>
+    <ion-button [routerLink]="['/registro']">Registrate</ion-button> <br>
+    ¿Ya tienes una cuenta? logeate
+    <ion-button [routerLink]="['/login']">Logeate</ion-button> <br>
+    <ion-button [routerLink]="['/contactanos']"> Contactanos <ion-icon name="call-outline"></ion-icon></ion-button>
+
+</ion-content>
